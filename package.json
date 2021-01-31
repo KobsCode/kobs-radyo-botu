@@ -1,0 +1,64 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "ascii-art": "^2.5.0",
+    "canvas": "^2.6.1",
+    "cleverbot-node": "^0.3.11",
+    "cleverbot.io": "^1.0.4",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "speedtest-net": "^2.1.0",
+    "enmap": "^5.2.9",
+    "enmap-level": "^2.1.0",
+    "node-superfetch": "^0.1.10",
+    "express": "^4.17.1",
+    "figlet": "^1.4.0",
+    "fs": "^0.0.2",
+    "inquirer": "^7.1.0",
+    "jimp": "^0.13.0",
+    "math-expression-evaluator": "^1.2.22",
+    "moment": "^2.26.0",
+    "moment-duration-format": "^2.2.2",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.18",
+    "mysql": "^2.18.1",
+    "node-google-translate-skidz": "^1.1.2",
+    "node-opus": "^0.3.3",
+    "quick.db": "^7.1.1",
+    "random-puppy": "^1.1.0",
+    "simple-youtube-api": "^5.2.1",
+    "steam-provider": "^0.2.0",
+    "superagent": "^5.2.2",
+    "useful-tools": "^0.2.6",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^3.1.1",
+    "os": "^0.1.1",
+    "hastebin-gen": "^2.0.5",
+    "request": "^2.88.2",
+    "ms": "^2.1.2",
+    "tcmb-doviz-kuru": "^2.0.4",
+    "tcmb-doviz": "^1.0.5",
+    "snekfetch": "^4.0.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
